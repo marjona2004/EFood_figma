@@ -1,4 +1,4 @@
-import { Navbar, Faq, Hero, Know, Restaran, Phone, Infarmation, Footer } from "../../components/pages/home-components";
+import { Navbar, Faq, Hero, Know, Restaran, Phone, Infarmation, Footer, Subscribe } from "../../components/pages/home-components";
 
 export const Home = () => {
   return (
@@ -10,6 +10,7 @@ export const Home = () => {
       <Restaran/>
       <Phone/>
       <Infarmation/>
+      <Subscribe/>
        <Footer/>
     </div>
   );
