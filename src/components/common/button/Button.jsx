@@ -16,7 +16,7 @@ export const Button = ({
     }
   };
 
-  return (
+ return (
     <div className={setClass()} onClick={() => changeListsHandler(id)}>
       <span>{icon}</span>
       <button>{children}</button>

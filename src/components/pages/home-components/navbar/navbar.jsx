@@ -30,7 +30,7 @@ export const Navbar = () => {
             </span>
             <BsCart3 size={"25px"} />
           </div>
-          <Button>Sing up</Button>
+          <Button  isActive={true} >Sing up</Button>
         </div>
       </div>
     </div>

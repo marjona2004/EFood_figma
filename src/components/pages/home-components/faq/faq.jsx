@@ -60,7 +60,7 @@ export const Faq = () => {
   };
   return (
     <div>
-      <h2>Our Popular Products</h2>
+      <h2 className="text-center text-[#363853] text-[36px] mb-[55px]">Our Popular <span className="text-orange">Products</span> </h2>
       <div className="flex justify-between items-center">
         {lists.map((list) => {
           return (
